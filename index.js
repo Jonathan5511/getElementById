@@ -1,0 +1,10 @@
+const mainHeading = document.getElementById('main-heading');
+mainHeading.textContent = 'Fruit World';
+mainHeading.style.color= 'orange';
+const back=document.getElementById('header');
+back.style.backgroundColor= 'green';
+back.style.borderBottom = '3px solid orange';
+const title=document.getElementById('basket-heading');
+title.style.color = 'green';
+const thanks=document.getElementById('thanks');
+thanks.innerHTML = '<p>Please visit us again</p>';
